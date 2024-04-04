@@ -42,8 +42,8 @@ const Mandamiento = () => {
   }
 
   return (
-    <div>
-      <div className="container mx-auto max-w-7xl p-8 bg-white">
+    <div className="container mx-auto max-w-7xl">
+      <div className="p-8 bg-white">
         <Link to="/mandamientos">
           <button
             type="button"
