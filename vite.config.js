@@ -9,4 +9,7 @@ export default defineConfig({
       targets: ['defaults', 'not IE 11']
     })
   ],
+  build: {
+    outDir: 'docs' // Carpeta de salida configurada en /docs
+  }
 })
