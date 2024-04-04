@@ -12,7 +12,7 @@ export default defineConfig({
   build: {
     outDir: 'docs' // Carpeta de salida configurada en /docs
   },
-  base: 'https://light-lig.github.io/isdemu-psico-test/', 
+  base: '/isdemu-psico-test/', 
 })
 
 
