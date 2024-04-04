@@ -10,7 +10,7 @@ const RouteSwitch = () =>
     <Routes>
         <Route element={<Layout />}>
             <Route element={<Main />} path="/" />
-            <Route element={<Instrucciones />} path="instrucciones"/>
+            <Route element={<Instrucciones />} path="/instrucciones"/>
             <Route element={<Questions />} path="/mandamientos" />
             <Route element={<Mandamiento />} path="/mandamiento/:id" />
 
