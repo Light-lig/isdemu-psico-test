@@ -11,5 +11,8 @@ export default defineConfig({
   ],
   build: {
     outDir: 'docs' // Carpeta de salida configurada en /docs
-  }
+  },
+  base: '/isdemu-psico-test/', 
 })
+
+
