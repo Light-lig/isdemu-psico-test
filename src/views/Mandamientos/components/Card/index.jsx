@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 const Card = ({ mandamiento }) => (
   <div className="bg-white shadow-md p-4 rounded-lg transition-colors duration-300 ease-in-out hover:bg-purple-100 border-t-4 border-purple-300">
     <h3 className="text-xl font-bold mb-2">{mandamiento.nombre}</h3>
-    <p className="text-gray-700">ID: {mandamiento.id}</p>
-    <p className="text-gray-700">Puntos: {mandamiento.nota}</p>
+    {/* <p className="text-gray-700">ID: {mandamiento.id}</p> */}
+    <p className="text-gray-700 mb-4">Puntos: {mandamiento.nota}</p>
     {mandamiento.finished ? (
       <button className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">
         <svg

@@ -1,12 +1,26 @@
-const opciones1 =  ["Excelente", "Muy bueno", "Bueno", "Reguar", "Deficiente"];
-const opciones2 =   ["Totalmente de acuerdo", "De acuerdo", "indeciso", "En desacuerdo", "Totalmente en desacuerdo"];
-const opciones3 = ["Muy frecuentemente", "Frecuentemente", "Ocuasionalmente", "Raramente", "Nunca"];
+const opciones1 =  [{ nombre: "Excelente", valor: 5 },
+{ nombre: "Muy bueno", valor: 4 },
+{ nombre: "Bueno", valor: 3 },
+{ nombre: "Regular", valor: 2 },
+{ nombre: "Deficiente", valor: 1 }];
+const opciones2 =   [  { nombre: "Totalmente de acuerdo", valor: 5 },
+{ nombre: "De acuerdo", valor: 4 },
+{ nombre: "Indeciso", valor: 3 },
+{ nombre: "En desacuerdo", valor: 2 },
+{ nombre: "Totalmente en desacuerdo", valor: 1 }];
+const opciones3 = [ { nombre: "Muy frecuentemente", valor: 5 },
+{ nombre: "Frecuentemente", valor: 4 },
+{ nombre: "Ocasionalmente", valor: 3 },
+{ nombre: "Raramente", valor: 2 },
+{ nombre: "Nunca", valor: 1 }];
 export const cuestionarios = [
  {
         id: 1,
         nombre: "Primer Instrumento",
         nota: 0,
         finished: false,
+        titulo:"PRIMER INSTRUMENTO DE AUTOEVALUACION GERENCIAL: ORIENTADO A LA MANERA EN QUE SE ADMINISTRA",
+        objetivo:"COMPRENDER  EL DESARROLLO DE LA ADMINISTRACION ESTABLECIDA ",
         preguntas: [
             {
                 pregunta: "La manera que administras las tareas diarias en orden de prioridad es:",
@@ -96,6 +110,8 @@ export const cuestionarios = [
         nombre: "Segundo Instrumento",
         nota: 0,
         finished: false,
+        titulo:"SEGUNDO INSTRUMENTO DE AUTOEVALUACION GERENCIAL: ORIENTADO A LA MANERA EN QUE SE GERENCIA",
+        objetivo:"CONOCER LA MANERA DE GESTON DE OBJETIVOS Y METAS CON LOS COLABORADORES DEL AREA",
         preguntas: [
             {
                 pregunta: "Como evalúas tu enfoque para establecer una visión clara y convincente:",
@@ -186,6 +202,8 @@ export const cuestionarios = [
         nombre: "Tercer Instrumento",
         nota: 0,
         finished: false,
+        titulo:"TERCER INSTRUMENTO DE AUTOEVALUACION GERENCIAL: ORIENTADO A LA MANERA EN QUE SE DIRIGE",
+        objetivo:"COMPRENDER LA MANERA EN LA QUE SE DIRIGEN LAS ACTIVIDADES Y MANEJO DE RECURSOS GERENCIALES",
         preguntas: [
             {
                 pregunta: "La manera en que diriges al equipo hacia el cumplimiento de objetivos desafiantes es:",
@@ -276,6 +294,8 @@ export const cuestionarios = [
     nombre: "Cuarto Instrumento",
     nota: 0,
     finished: false,
+    titulo:"CUARTO INSTRUMENTO DE AUTOEVALUACION GERENCIAL: ORIENTADO A LA MANERA EN QUE SE LIDERA",
+    objetivo:"RECONOCER LA MANERA QUE SE LIDERAN LOS EQUIPOS DE TRABAJO INVOLUCRADOS EN LA ORGANIZACIÓN MEDIANTE UNA CORRECTA COMUNICACIÓN Y ADAPTACION A DIVERSAS SITUACIONES",
     preguntas: [
         {
             pregunta: "Como evalúas el cumplimiento de los objetivos empresariales:",
@@ -366,6 +386,8 @@ export const cuestionarios = [
         nombre: "Quinto Instrumento",
         nota: 0,
         finished: false,
+        titulo:"QUINTO INSTRUMENTO DE AUTOEVALUACION GERENCIAL: ORIENTADO A LA MANERA EN QUE SE GESTIONA",
+        objetivo:"FOMENTAR LA MEJORA CONTINUA Y EL DESARROLLO DE UNA BUENA ADMINISTRACION POR PARTE DE LOS GERENTES DE LA ORGANIZACIÓN",
         preguntas: [
             {
                 pregunta: "Qué nivel de efectividad tengo para fomentar un ambiente de trabajo colaborativo y de apoyo:",

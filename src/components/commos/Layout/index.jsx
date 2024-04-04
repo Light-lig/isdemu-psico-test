@@ -46,9 +46,9 @@ const Layout = () => {
                     Instrucciones
                   </Link>
                   <Link
-                    to="/questions"
+                    to="/mandamientos"
                     className={`text-gray-300 rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/questions"
+                      location.pathname === "/mandamientos"
                         ? "bg-purple-900 text-white"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
@@ -126,9 +126,9 @@ const Layout = () => {
                     Instrucciones
                   </Link>
                   <Link
-                    to="/questions"
+                    to="/mandamientos"
                     className={`text-gray-300 rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/questions"
+                      location.pathname === "/mandamientos"
                         ? "bg-purple-900 text-white"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
@@ -147,7 +147,7 @@ const Layout = () => {
         </div>
       </header>
       <main>
-        <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <div className="py-6 sm:px-6 lg:px-8">
           <Outlet />
         </div>
       </main>

@@ -1,4 +1,5 @@
-export const Instrucciones = () =><div className="container mx-auto">
+export const Instrucciones = () =>
+<div className="container mx-auto max-w-7xl">
 <h2 className="text-2xl font-bold mt-8 mb-4">OBJETIVO:</h2>
 <p className="mb-8">
   Evaluar las competencias individuales de cada integrante de la organización con el fin de determinar de una manera cuantitativa con la escala de evaluación, para saber sus competencias y habilidades que desarrollan para su cargo respectivo.

@@ -11,7 +11,8 @@ export const questionsSlice = createSlice({
   reducers:{
     edit:(state, action)=>{
       const payload = action.payload;
-      const found = state.find(e=>e.id === parseInt(payload.id));
+      console.log(payload);
+      const found = state.mandamientos.find(e=>e.id === parseInt(payload.id));
       if(found){
         found.nota = payload.nota;
         found.finished = payload.finished;

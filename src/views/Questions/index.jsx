@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 const Questions = () =>{
     const user = useSelector(state=>state.user.userInfo);
     if(user){
-        return <Mandamientos />
+        return <Mandamientos user={user}/>
     }
 
 

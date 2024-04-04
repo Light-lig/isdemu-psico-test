@@ -1,5 +1,5 @@
 export const Main = () => (
-    <div className="container mx-auto">
+    <div className="container mx-auto max-w-7xl">
     <p className="mb-8">
       El ISDEMU es la institución responsable de formular, dirigir, ejecutar y vigilar el cumplimiento de la Política Nacional de la Mujer; promover el desarrollo integral de la mujer a través del cumplimiento de las disposiciones legales y además promover anteproyectos de Ley y Reformas a las mismas que mejoren la situación legal de la mujer, sobre todo en la legislación laboral. Así como también, tiene el compromiso de propiciar la efectiva participación de las Organizaciones de Mujeres, de la comunidad y demás entidades de la sociedad civil.
     </p>
