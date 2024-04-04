@@ -33,7 +33,7 @@ const Mandamiento = () => {
 
     dispatch(edit(form));
     reset();
-    navigate("/mandamientos");
+    navigate("/isdemu-psico-test/mandamientos");
   };
 
   // Verificar si el formulario existe antes de renderizar
@@ -44,7 +44,7 @@ const Mandamiento = () => {
   return (
     <div className="container mx-auto max-w-7xl">
       <div className="p-8 bg-white">
-        <Link to="/mandamientos">
+        <Link to="/isdemu-psico-test/mandamientos">
           <button
             type="button"
             class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"

@@ -12,7 +12,7 @@ const Layout = () => {
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link to="/">
+                <Link to="/isdemu-psico-test/">
                   <img
                     className="h-10 w-25 rounded"
                     src={Logo}
@@ -23,22 +23,22 @@ const Layout = () => {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
-                    to="/"
+                    to="/isdemu-psico-test/"
                     className={`text-white rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/"
+                      location.pathname === "/isdemu-psico-test/"
                         ? "bg-purple-900"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
                     aria-current={
-                      location.pathname === "/" ? "page" : undefined
+                      location.pathname === "/isdemu-psico-test/" ? "page" : undefined
                     }
                   >
                     Inicio
                   </Link>
                   <Link
-                    to="/instrucciones"
+                    to="/isdemu-psico-test/instrucciones"
                     className={`text-gray-300 rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/instrucciones"
+                      location.pathname === "/isdemu-psico-test/instrucciones"
                         ? "bg-purple-900 text-white"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
@@ -46,9 +46,9 @@ const Layout = () => {
                     Instrucciones
                   </Link>
                   <Link
-                    to="/mandamientos"
+                    to="/isdemu-psico-test/mandamientos"
                     className={`text-gray-300 rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/mandamientos"
+                      location.pathname === "/isdemu-psico-test/mandamientos"
                         ? "bg-purple-900 text-white"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
@@ -103,22 +103,22 @@ const Layout = () => {
         <div className="md:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
           <Link
-                    to="/"
+                    to="/isdemu-psico-test/"
                     className={`text-white rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/"
+                      location.pathname === "/isdemu-psico-test/"
                         ? "bg-purple-900"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
                     aria-current={
-                      location.pathname === "/" ? "page" : undefined
+                      location.pathname === "/isdemu-psico-test/" ? "page" : undefined
                     }
                   >
                     Inicio
                   </Link>
                   <Link
-                    to="/instrucciones"
+                    to="/isdemu-psico-test/instrucciones"
                     className={`text-gray-300 rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/instrucciones"
+                      location.pathname === "/isdemu-psico-test/instrucciones"
                         ? "bg-purple-900 text-white"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
@@ -126,9 +126,9 @@ const Layout = () => {
                     Instrucciones
                   </Link>
                   <Link
-                    to="/mandamientos"
+                    to="/isdemu-psico-test/mandamientos"
                     className={`text-gray-300 rounded-md px-3 py-2 text-sm font-medium ${
-                      location.pathname === "/mandamientos"
+                      location.pathname === "/isdemu-psico-test/mandamientos"
                         ? "bg-purple-900 text-white"
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
