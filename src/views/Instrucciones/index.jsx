@@ -80,7 +80,9 @@ export const Instrucciones = () => (
       </tbody>
     </table>
 
-    <ol className="list-decimal pl-4 mt-8">
+    <ol start={
+      4
+    } className="list-decimal pl-4 mt-8">
       <li className="mb-4">
         Se te dará una nota individual al final de cada instrumento de
         autoevaluación gerencial
