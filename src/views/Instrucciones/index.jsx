@@ -1,6 +1,6 @@
 export const Instrucciones = () => (
   <div className="container mx-auto max-w-7xl">
-    <h2 className="text-2xl font-bold mt-8 mb-4">OBJETIVO:</h2>
+    <h2 className="text-2xl font-bold mb-4">OBJETIVO:</h2>
     <p className="mb-8">
       Evaluar las competencias individuales de cada integrante de la
       organización con el fin de determinar de una manera cuantitativa con la
@@ -82,13 +82,13 @@ export const Instrucciones = () => (
 
     <ol start={
       4
-    } className="list-decimal pl-4 mt-8">
+    } className="list-decimal pl-4 mt-8" >
       <li className="mb-4">
         Se te dará una nota individual al final de cada instrumento de
         autoevaluación gerencial
       </li>
 
-      <li>
+      <li className="mb-4">
         Los instrumentos con los que se te evaluará son los siguientes:
         <ul className="list-disc pl-6 mt-4">
           <li>

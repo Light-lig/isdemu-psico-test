@@ -53,7 +53,7 @@ const Layout = () => {
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
                   >
-                    Mandamientos
+                    Tests
                   </Link>
                 </div>
               </div>
@@ -133,7 +133,7 @@ const Layout = () => {
                         : "hover:bg-purple-700 hover:text-white"
                     }`}
                   >
-                    Mandamientos
+                    Tests
                   </Link>
           </div>
         </div>
