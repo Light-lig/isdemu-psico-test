@@ -13,7 +13,7 @@ export const Instrucciones = () => (
     </h2>
     <ol className="list-decimal pl-4 mb-8">
       <li className="mb-2">Sé sincero o sincera a la hora de autoevaluarte</li>
-      <li className="mb-2">Lee bien las preguntas</li>
+      <li className="mb-2">Lee bien las frases</li>
       <li className="mb-2">
         Hay una escala de calificación que es la siguiente:
       </li>
@@ -125,8 +125,8 @@ export const Instrucciones = () => (
         Por ende, los puntos totales, juntando los 5 instrumentos son 500 puntos
       </li>
       <li className="mb-4">
-        Cada instrumento cuenta con un total de 20 preguntas, y por todos los
-        instrumentos un total de 100 preguntas
+        Cada instrumento cuenta con un total de 20 frases, y por todos los
+        instrumentos un total de 100 frases
       </li>
     </ol>
   </div>
